@@ -127,4 +127,5 @@
   window.__applyTranslations = () => applyLanguage(currentLanguage);
   document.getElementById('year').textContent = String(new Date().getFullYear());
   applyLanguage(currentLanguage);
+  document.documentElement.classList.remove('i18n-pending');
 })();
