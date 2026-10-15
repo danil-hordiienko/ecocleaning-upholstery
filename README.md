@@ -16,6 +16,8 @@ Standalone landing page for professional upholstery cleaning at home in Torrevie
 
 `index.html`, `styles.css`, `script.js` and `translations.js` form the page. Assets and fonts are included in this repository. Serve the repository root with any static web server for a local preview.
 
+After editing `styles.css` or `fonts.css`, run `node prepare.cjs` to refresh the embedded stylesheet in `index.html`. Styles are embedded to avoid render-blocking stylesheet requests. Images have responsive WebP variants; local font subsets support the four page languages.
+
 ## Publication
 
 GitHub Pages publishes the root of the `main` branch. `.nojekyll` preserves the static files. Push changes to `main` to update the website.
