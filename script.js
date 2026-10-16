@@ -18,7 +18,7 @@
   const options = [...document.querySelectorAll('[data-item]')];
   const whatsappLinks = [...document.querySelectorAll('[data-whatsapp]')];
   const selectionNote = document.getElementById('selection-note');
-  const buildUrl = () => 'https://wa.me/34619507938?text=' + encodeURIComponent(t('wa.base') + (selected.size ? '\n' + t('wa.items') + itemNames() + '.' : '') + '\n' + t('wa.end'));
+  const buildUrl = () => 'https://wa.me/34689682484?text=' + encodeURIComponent(t('wa.base') + (selected.size ? '\n' + t('wa.items') + itemNames() + '.' : '') + '\n' + t('wa.end'));
   function update() {
     options.forEach(button => {
       const active = selected.has(button.dataset.item);
