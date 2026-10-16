@@ -2079,3 +2079,43 @@ a,button {
 .quote-next-step>span[aria-hidden]{margin-top:3px}
 .quote-next-step>[data-i18n]{flex:1;min-width:0}
 @media(max-width:600px){.photo-guide{padding-top:18px;margin-bottom:20px}.photo-guide h4{font-size:14px}.photo-guide ul{font-size:14px}.quote-next-step{flex-wrap:nowrap}}
+
+/* Expandable price guide in the existing EcoCleaning visual system. */
+.price-section{padding-top:20px}
+.price-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:50px;align-items:center;margin-bottom:34px}
+.price-heading h2 .handwritten{display:inline-block;margin-top:8px}
+.price-intro{max-width:690px;font-size:17px;margin:24px 0 0}
+.minimum-order{display:flex;flex-direction:column;justify-content:center;gap:8px;padding:28px 34px;max-width:310px;border:1px solid var(--line);border-radius:24px;background:var(--mint);color:var(--olive)}
+.minimum-order>span{font-size:14px;line-height:1.5}
+.minimum-order strong{font-size:44px;font-weight:400;letter-spacing:-.04em;line-height:1.2;font-variant-numeric:tabular-nums}
+.price-groups{display:grid;gap:14px}
+.price-group{background:white;border:1px solid var(--line);border-radius:22px;overflow:clip;box-shadow:var(--shadow)}
+.price-group summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:80px;padding:24px 30px;cursor:pointer;color:var(--ink)}
+.price-group summary::-webkit-details-marker{display:none}
+.price-group summary:hover{background:var(--bg)}
+.price-group summary:focus-visible{outline:3px solid #b49854;outline-offset:-5px;border-radius:22px}
+.price-group summary h3{font-size:24px;line-height:1.35;letter-spacing:-.025em;min-width:0}
+.price-chevron{width:22px;height:22px;flex:none;transition:transform .2s}
+.price-group[open] .price-chevron{transform:rotate(180deg)}
+.price-group[open] summary{border-bottom:1px solid var(--line)}
+.price-group-body{padding:4px 30px 26px}
+.price-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:16px;line-height:1.6}
+.price-table th,.price-table td{padding:15px 0;text-align:left;overflow-wrap:break-word}
+.price-table thead th{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:20px;padding-bottom:12px}
+.price-table thead th:last-child,.price-table td{width:28%;text-align:right;padding-left:24px}
+.price-table tbody th{font-weight:400;color:var(--ink)}
+.price-table tbody tr+tr{border-top:1px solid var(--line)}
+.price-table td{font-weight:600;color:var(--olive);font-variant-numeric:tabular-nums}
+.price-table td small{display:block;font-size:13px;font-weight:400;line-height:1.5;margin-top:4px;color:var(--muted)}
+.price-note{font-size:14px;background:var(--bg);border-radius:14px;padding:17px 20px;margin:10px 0 0;line-height:1.65}
+.price-car-intro{font-size:16px;max-width:840px;margin:20px 0 0}
+.price-calculation{border-top:1px solid var(--line);padding-top:24px;margin-top:5px}
+.price-calculation h4{font-size:16px;font-weight:600;margin:0 0 9px}
+.price-calculation p{font-size:15px;max-width:820px;margin-bottom:16px}
+.price-calculation .price-formula{font-size:19px;color:var(--olive);margin-bottom:24px}
+.price-bottom{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:26px}
+.price-bottom p{max-width:730px;font-size:14px;margin:0}
+.price-bottom .btn{flex:none;max-width:100%}
+.quote-panel .quote-minimum{font-size:14px;color:var(--olive);font-weight:600;margin:14px 0 0}
+@media(max-width:800px){.price-heading{gap:24px}.minimum-order{padding:24px;max-width:240px}.price-table td,.price-table thead th:last-child{width:31%}.price-bottom{align-items:flex-start;flex-direction:column;gap:20px}}
+@media(max-width:600px){.price-section{padding-top:5px}.price-heading{grid-template-columns:1fr;gap:24px;margin-bottom:26px}.price-intro{font-size:16px;margin-top:20px}.minimum-order{max-width:none;flex-direction:row;align-items:center;justify-content:space-between;padding:18px 22px;gap:20px}.minimum-order>span{max-width:190px}.minimum-order strong{font-size:36px;white-space:nowrap}.price-group summary{padding:19px 20px;min-height:72px;gap:14px}.price-group summary h3{font-size:21px}.price-group-body{padding:2px 18px 20px}.price-table{font-size:14px;line-height:1.6}.price-table thead th{font-size:10px;letter-spacing:.02em}.price-table td,.price-table thead th:last-child{width:34%;padding-left:12px}.price-table th,.price-table td{padding-top:13px;padding-bottom:13px}.price-table td small{font-size:12px}.price-note{font-size:14px;padding:15px}.price-car-intro{font-size:14px}.price-calculation p{font-size:14px}.price-calculation .price-formula{font-size:17px}.price-bottom .btn{width:100%;font-size:14px}.quote-panel .quote-minimum{font-size:13px}}
