@@ -1890,10 +1890,6 @@ a,button {
     gap:12px
   }
   
-   .hero-bottom .tiny-spark:nth-of-type(4n) {
-    display:none
-  }
-  
    .service-content {
     padding:24px
   }
@@ -2027,10 +2023,6 @@ a,button {
     padding:22px
   }
   
-   .hero-bottom .tiny-spark {
-    display:none
-  }
-  
    h2 {
     font-size:32px
   }
@@ -2122,3 +2114,6 @@ a,button {
 
 /* Equipment logos supplied by the owner. */
 .equipment-note{max-width:calc(100% - 30px)}.equipment-logos{display:flex;align-items:center;gap:20px;margin-top:6px}.equipment-logos strong{flex:none}.santoemma-logo{width:180px;height:auto;min-width:0;object-fit:contain}@media(max-width:600px){.equipment-logos{gap:12px}.santoemma-logo{width:120px}.equipment-note strong{font-size:18px}}
+
+/* Keep the service separators visible at every breakpoint. */
+.hero-service{display:inline-flex;align-items:center;gap:18px;white-space:nowrap}.hero-service .tiny-spark{display:inline-flex;flex:none}.studio-credit{color:var(--muted);font-size:12px;white-space:nowrap}@media(max-width:600px){.hero-service{gap:10px}.hero-service .tiny-spark .icon{width:14px;height:14px}.footer-bottom .studio-credit{display:inline-block;flex-basis:100%;text-align:center}}

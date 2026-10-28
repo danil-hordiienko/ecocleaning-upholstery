@@ -12,7 +12,7 @@
   }
   let currentLanguage = detectLanguage();
   const t = key => dictionaries[currentLanguage][key] ?? dictionaries.en[key] ?? '';
-  const itemKeys = { 'Диван': 't098', 'Кресло / пуф': 't099', 'Матрас': 't100', 'Мягкие стулья': 't101', 'Ковёр / ковролин': 't102', 'Салон автомобиля': 't103' };
+  const itemKeys = { 'Диван': 't098', 'Кресло / пуф': 't099', 'Матрас': 't100', 'Мягкие стулья': 't101', 'Ковёр / ковролин': 't102', 'Салон автомобиля': 't103', 'Окна': 'windows.item' };
   const itemNames = () => [...selected].map(item => t(itemKeys[item])).join(', ');
   const selected = new Set();
   const options = [...document.querySelectorAll('[data-item]')];
