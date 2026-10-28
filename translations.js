@@ -212,7 +212,8 @@ window.ECO_I18N = {
     "windows.taxTravel": "Цены включают IVA. Возможную доплату за выезд согласуем заранее.",
     "windows.request": "Пришлите фотографии окон и местоположение в WhatsApp — мы рассчитаем стоимость и согласуем её до начала работ.",
     "windows.cta": "Рассчитать мойку окон",
-    "windows.item": "Окна"
+    "windows.item": "Окна",
+    "ft.madeBy": "Сделано"
   },
   "en": {
     "t001": "Skip to content",
@@ -426,7 +427,8 @@ window.ECO_I18N = {
     "windows.taxTravel": "Prices include IVA (VAT). Any travel surcharge is agreed in advance.",
     "windows.request": "Send photos of the windows and your location on WhatsApp — we will calculate and agree the price before work begins.",
     "windows.cta": "Get a window cleaning quote",
-    "windows.item": "Windows"
+    "windows.item": "Windows",
+    "ft.madeBy": "Made"
   },
   "es": {
     "t001": "Saltar al contenido",
@@ -640,7 +642,8 @@ window.ECO_I18N = {
     "windows.taxTravel": "Los precios incluyen IVA. Cualquier suplemento por desplazamiento se acuerda de antemano.",
     "windows.request": "Envíenos fotos de las ventanas y su ubicación por WhatsApp: calcularemos y acordaremos el precio antes de comenzar.",
     "windows.cta": "Pedir presupuesto para ventanas",
-    "windows.item": "Ventanas"
+    "windows.item": "Ventanas",
+    "ft.madeBy": "Hecho por"
   },
   "uk": {
     "t001": "Перейти до вмісту",
@@ -854,6 +857,7 @@ window.ECO_I18N = {
     "windows.taxTravel": "Ціни включають IVA. Можливу доплату за виїзд узгоджуємо заздалегідь.",
     "windows.request": "Надішліть фотографії вікон і місцеперебування у WhatsApp — ми розрахуємо вартість і погодимо її до початку робіт.",
     "windows.cta": "Розрахувати миття вікон",
-    "windows.item": "Вікна"
+    "windows.item": "Вікна",
+    "ft.madeBy": "Зроблено"
   }
 };
